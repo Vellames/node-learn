@@ -1,0 +1,19 @@
+{
+  "name": "Node-Learn",
+  "description": "Aprendendo coisas do nodeJs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-load": "^1.1.15",
+    "express-session": "^1.15.2",
+    "jade": "^1.11.0",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  }
+}

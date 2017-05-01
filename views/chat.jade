@@ -1,0 +1,22 @@
+extends includes/logged_header
+
+block stylesheets
+    link(href="css/pages/chat.css", rel="stylesheet")
+
+block scripts
+    script(src="js/pages/chat.js")
+
+block mainContent
+    section#section-send-message
+        form#send-message
+            input.form-control(type="text", placeholder="Type Here")
+
+    section#online-users
+        ul
+            li alguem
+            li alguem
+            li alguem
+
+    section#messages-list
+        ul
+

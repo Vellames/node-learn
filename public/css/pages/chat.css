@@ -1,0 +1,29 @@
+ul{
+    padding: 0px;
+}
+
+ul li{
+    list-style: none;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    padding: 10px;
+}
+
+#section-send-message{
+    position: absolute;
+    width: 100%;
+    top: calc(100% - 35px);
+}
+
+#messages-list{
+    width: 70%;
+    position: absolute;
+    height: calc(100% - 55px);
+    overflow-y: scroll;
+}
+#online-users{
+    position: absolute;
+    width: 30%;
+    left: 70%;
+    height: calc(100% - 55px);
+    overflow-y: scroll;
+}

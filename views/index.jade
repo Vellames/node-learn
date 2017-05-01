@@ -1,0 +1,17 @@
+extends includes/inside_header
+
+block stylesheets
+    link(href="css/pages/index.css", rel="stylesheet")
+
+block mainContent
+    div.container-fluid.login-form
+
+        h1 Login | Node Chat
+
+        form(method="post" action="/user/login")
+            div.margin-top-10
+                input.form-control#user(type="text", placeholder="User", name="user[login]", required="required")
+            div.margin-top-10
+                input.form-control#password(type="password", placeholder="Password", name="user[password]")
+            div.margin-top-10
+                button.btn.btn-success Login
